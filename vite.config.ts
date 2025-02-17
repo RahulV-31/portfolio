@@ -19,6 +19,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: 'dist', // Define the output directory for the build
+    outDir: 'dist/client', // Set the correct output directory
   }
 }));
