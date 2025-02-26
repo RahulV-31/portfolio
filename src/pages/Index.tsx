@@ -89,7 +89,15 @@ const Index = () => {
     fullDesc: "Built a deep learning model to classify ships using a Kaggle dataset. The project utilized Convolutional Neural Networks (CNNs) in TensorFlow to extract and classify image features. The model achieved 95% accuracy, significantly improving maritime traffic monitoring. A Flask web application was created to allow real-time ship classification by uploading images. This project demonstrates expertise in deep learning, image processing, and model deployment.",
     technologies: ["Deep Learning", "Flask", "Kaggle"],
     github: "https://github.com/RahulV-31/Neural-Networks-Ahoy-Cutting-edge-Ship-Classification-for-Maritime-Mastery"
-  }, {
+  },
+  {
+    "title": "Plant Disease Detection",
+    "shortDesc": "Developed a deep learning model to detect plant diseases from leaf images, aiding early diagnosis and prevention.",
+    "fullDesc": "Built a Convolutional Neural Network (CNN) model using the PlantVillage dataset to classify plant diseases. The model was trained with TensorFlow and Keras, achieving 96% accuracy in detecting 33 different plant diseases. Image preprocessing techniques such as augmentation and normalization were applied to enhance model performance. A Flask web application was developed for real-time disease detection, allowing users to upload leaf images and receive disease classifications along with prevention recommendations. This project showcases expertise in deep learning, computer vision, and AI-driven agricultural solutions.", 
+    "technologies": ["Deep Learning", "Flask", "TensorFlow", "Keras", "OpenCV"],
+    "github": "https://github.com/RahulV-31/Plant-Disease-Detection"
+  }
+, {
     title: "BBC Text Category Classification",
     shortDesc: "Implemented an NLP-based model to classify BBC news articles and deployed a real-time Flask web app.",
     fullDesc: "Developed a Natural Language Processing (NLP) model to classify BBC news articles into five categories: Business, Entertainment, Politics, Sport, and Tech. Applied text preprocessing techniques such as tokenization, stopword removal, and stemming. TF-IDF vectorization was used to extract features, and models like Naïve Bayes and Logistic Regression were evaluated. The best-performing model achieved 92% accuracy. A Flask web app was built for real-time classification, enabling users to enter text and receive instant predictions.",
@@ -112,19 +120,19 @@ const Index = () => {
     shortDesc: "Developed a classification model to predict diabetes risk based on patient health data.",
     fullDesc: "Created a machine learning model to assess diabetes risk using patient health metrics such as blood pressure, glucose levels, and BMI. The dataset was cleaned and preprocessed, including handling missing values and feature scaling. Multiple classification models were tested, with the best model achieving an 85% accuracy. The project highlights predictive modeling in healthcare and includes a Flask web app where users can enter their health details to receive real-time predictions.",
     technologies: ["Machine Learning", "Classification", "Healthcare"],
-    github: "https://github.com/your-username/diabetes-prediction"
+    github: "https://github.com/RahulV-31/diabetes-prediction"
   }, {
     title: "Superstore Sales Dashboard (Power BI)",
     shortDesc: "Designed an interactive Power BI dashboard for in-depth sales trend analysis.",
     fullDesc: "Built a Power BI dashboard to analyze Superstore sales data, focusing on revenue trends, product performance, and customer insights. Cleaned and transformed raw data for accurate visualization. Implemented interactive filters and slicers for dynamic exploration of key metrics such as total sales, profit margins, and region-wise performance. Used DAX for advanced calculations, helping businesses make data-driven decisions on inventory and pricing strategies.",
     technologies: ["Power BI", "DAX", "Data Cleaning", "Data Visualization"],
-    github: ""
+    PowerBI: "https://app.powerbi.com/links/1LMcEl10Cd?ctid=642b50c5-dc9d-41bf-a6f5-d4eb3b1925dc&pbi_source=linkShare"
   }, {
     title: "Netflix Dashboard (Tableau)",
     shortDesc: "Created an interactive Tableau dashboard to visualize Netflix content trends and user engagement.",
     fullDesc: "Developed a Tableau dashboard to analyze Netflix's content library, examining trends in genre distribution, regional availability, and release patterns over time. Cleaned and structured the dataset for consistency. Created interactive visualizations, including filters and drill-down capabilities, to explore various content categories. The insights help understand audience preferences and content evolution, making it a valuable tool for media analytics.",
     technologies: ["Tableau", "Data Cleaning", "Data Visualization"],
-    github: ""
+    Tableau: "https://public.tableau.com/views/Netflix1_16983097244610/Netflix?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
   }];
 
 
@@ -278,7 +286,7 @@ const Index = () => {
       }} className="max-w-4xl mx-auto">
           <h2 className="heading text-center">Skills</h2>
           <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {["Python", "SQL", "R", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI", "Tableau", "Excel", "Regression Models", "Classification Models", "Supervised Learning", "Unsupervised Learning", "Predictive Analytics", "TensorFlow", "Keras", "Convolutional Neural Networks (CNN)", "Recurrent Neural Networks (RNN)", "Long Short-Term Memory (LSTMs)", "OpenCV", "Flask"].map(skill => <motion.div key={skill} className="glass-effect p-4 rounded-xl text-center hover:scale-105 transition-transform duration-300 cursor-pointer" whileHover={{
+            {["Python", "SQL", "R", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI", "Tableau", "Excel", "Regression Models", "Classification Models", "Supervised Learning", "Unsupervised Learning", "Predictive Analytics", "TensorFlow", "Keras", "Convolutional Neural Networks (CNN)", "Recurrent Neural Networks (RNN)", "OpenCV", "Flask"].map(skill => <motion.div key={skill} className="glass-effect p-4 rounded-xl text-center hover:scale-105 transition-transform duration-300 cursor-pointer" whileHover={{
             y: -5
           }} initial={{
             opacity: 0,
