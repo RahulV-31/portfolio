@@ -126,13 +126,13 @@ const Index = () => {
     shortDesc: "Designed an interactive Power BI dashboard for in-depth sales trend analysis.",
     fullDesc: "Built a Power BI dashboard to analyze Superstore sales data, focusing on revenue trends, product performance, and customer insights. Cleaned and transformed raw data for accurate visualization. Implemented interactive filters and slicers for dynamic exploration of key metrics such as total sales, profit margins, and region-wise performance. Used DAX for advanced calculations, helping businesses make data-driven decisions on inventory and pricing strategies.",
     technologies: ["Power BI", "DAX", "Data Cleaning", "Data Visualization"],
-    PowerBI: "https://app.powerbi.com/links/1LMcEl10Cd?ctid=642b50c5-dc9d-41bf-a6f5-d4eb3b1925dc&pbi_source=linkShare"
+    github: "https://app.powerbi.com/links/1LMcEl10Cd?ctid=642b50c5-dc9d-41bf-a6f5-d4eb3b1925dc&pbi_source=linkShare"
   }, {
     title: "Netflix Dashboard (Tableau)",
     shortDesc: "Created an interactive Tableau dashboard to visualize Netflix content trends and user engagement.",
     fullDesc: "Developed a Tableau dashboard to analyze Netflix's content library, examining trends in genre distribution, regional availability, and release patterns over time. Cleaned and structured the dataset for consistency. Created interactive visualizations, including filters and drill-down capabilities, to explore various content categories. The insights help understand audience preferences and content evolution, making it a valuable tool for media analytics.",
     technologies: ["Tableau", "Data Cleaning", "Data Visualization"],
-    Tableau: "https://public.tableau.com/views/Netflix1_16983097244610/Netflix?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    github: "https://public.tableau.com/views/Netflix1_16983097244610/Netflix?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
   }];
 
 
