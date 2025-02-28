@@ -452,7 +452,7 @@ const Index = () => {
 
           <div className="flex justify-center space-x-8">
             <motion.a
-              href="https://linkedin.com/in/rahul-veggilam"
+              href="https://www.linkedin.com/in/rahul-veggilam-68522a260/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
