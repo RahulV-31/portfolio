@@ -263,7 +263,7 @@ const Index = () => {
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
-                Secondary School Certificate (SSC)
+              Secondary School Certificate (SSC)
               </h3>
               <p className="text-gray-600">Sacred Heart School, Maharashtra State Board | 2017-2018</p>
             </div>
