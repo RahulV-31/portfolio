@@ -245,28 +245,24 @@ const Index = () => {
           <div className="mt-12 space-y-8">
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
-                <span className="mr-2"></span>
                 Master of Science in Data Science
               </h3>
               <p className="text-gray-600">B.K. Birla College, Mumbai University | 2023-2025</p>
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
-                <span className="mr-2"></span>
                 Bachelor of Science in Information Technology
               </h3>
               <p className="text-gray-600">B.K. Birla College, Mumbai University | 2020-2023</p>
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
-                <span className="mr-2"></span>
                 Higher Secondary Certificate (HSC) – Science
               </h3>
               <p className="text-gray-600">B.K. Birla College, Maharashtra State Board | 2018-2020</p>
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
-                <span className="mr-2"></span>
                 Secondary School Certificate (SSC)
               </h3>
               <p className="text-gray-600">Sacred Heart School, Maharashtra State Board | 2017-2018</p>
