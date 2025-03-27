@@ -135,7 +135,6 @@ const Index = () => {
     github: "https://public.tableau.com/views/Netflix1_16983097244610/Netflix?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
   }];
 
-
   return (
     <div className="min-h-screen bg-[#f8f9fa]">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
@@ -178,10 +177,9 @@ const Index = () => {
           </motion.div>}
       </nav>
 
-      <section id="intro" className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-br from-orange-500 via-purple-500 to-blue-500 opacity-50 blur-3xl"></div>
-        </div>
+<section id="intro" className="relative h-screen flex items-center justify-center overflow-hidden bg-[#f9fafb]">
+
+
         <div className="relative z-10 glass-effect p-8 rounded-2xl max-w-4xl mx-4">
           <motion.div initial={{
             opacity: 0,

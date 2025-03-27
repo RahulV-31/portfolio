@@ -1,10 +1,14 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
+    --primary-color: #4361ee;
+    --secondary-color: #3a0ca3;
+    --accent-color: #f0f4ff;
+    --text-color: #2b2d42;
+    --bg-color: #ffffff;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -39,14 +43,6 @@
 
 .glass-effect {
   @apply backdrop-blur-md bg-white/30 border border-white/20;
-}
-
-.bg-gradient-glow {
-  background: radial-gradient(circle at center, 
-    rgba(255, 165, 0, 0.5), 
-    rgba(147, 51, 234, 0.5), 
-    rgba(59, 130, 246, 0.5)
-  );
 }
 
 .section-padding {
