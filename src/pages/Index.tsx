@@ -96,6 +96,21 @@ const Index = () => {
     "fullDesc": "Built a Convolutional Neural Network (CNN) model using the PlantVillage dataset to classify plant diseases. The model was trained with TensorFlow and Keras, achieving 96% accuracy in detecting 33 different plant diseases. Image preprocessing techniques such as augmentation and normalization were applied to enhance model performance. A Flask web application was developed for real-time disease detection, allowing users to upload leaf images and receive disease classifications along with prevention recommendations. This project showcases expertise in deep learning, computer vision, and AI-driven agricultural solutions.", 
     "technologies": ["Deep Learning", "Flask", "TensorFlow", "Keras", "OpenCV"],
     "github": "https://github.com/RahulV-31/Plant-Disease-Detection"
+  },
+  {
+    "title": "Bank Transactions: User Spending Behavior Analysis & Fraud Detection",
+    "shortDesc": "Performed in-depth SQL analysis on 6.3M+ financial transactions to uncover fraud patterns and user behavior insights using PostgreSQL.",
+    "fullDesc": "Executed advanced SQL queries on a synthetic dataset of over 6.3 million financial transactions to analyze user spending behavior and detect fraudulent activity. Leveraged PostgreSQL features such as Common Table Expressions (CTEs), window functions, and pattern mining to identify key fraud signals and repetitive suspicious behavior. Detected high-frequency frauds with identical transaction amounts, uncovered bot-like transfer chains, and analyzed fraud-prone transaction types. The project delivered actionable insights such as the most commonly targeted destinations and anomalies in transaction flows. All findings were summarized with statistical metrics and temporal analysis.",
+    "technologies": ["PostgreSQL", "pgAdmin", "SQL (CTEs, Window Functions, Aggregations)", "Data Analysis"],
+    "github": "https://github.com/RahulV-31/Bank-Transactions-User-Spending-Behavior-Analysis-Fraud-Detection-using-PostgreSQL"
+  }
+  ,
+  {
+    "title": "Spam Detection Using DistilBERT",
+    "shortDesc": "Built a high-accuracy spam classifier using DistilBERT for feature extraction and Logistic Regression for classification.",
+    "fullDesc": "Developed a robust spam detection system leveraging the DistilBERT transformer model to extract semantic embeddings from raw email text. These embeddings were fed into a Logistic Regression classifier, achieving a balanced and high-performing model with 96% accuracy on a real-world Kaggle email dataset. The project involved minimal preprocessing and used Hugging Face Transformers for efficient tokenization and feature extraction. Ideal for practical deployment in spam filters and email security pipelines, this project highlights the power of combining lightweight NLP transformers with classic ML techniques.",
+    "technologies": ["Python", "DistilBERT", "Hugging Face Transformers", "Scikit-learn", "NLP", "Logistic Regression", "Pandas"],
+    "github": "https://github.com/RahulV-31/Spam-Detection-Using-DistilBERT"
   }
 , {
     title: "BBC Text Category Classification",
