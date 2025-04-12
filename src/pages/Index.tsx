@@ -368,9 +368,14 @@ const Index = () => {
           <h2 className="heading text-center">Certifications</h2>
           <div className="mt-12 space-y-8">
             <div className="glass-effect p-6 rounded-xl">
-              <h3 className="text-xl font-bold">LnT Machine Learning Certification</h3>
+              <h3 className="text-xl font-bold">L&T Machine Learning Certification</h3>
               <p className="text-gray-600">May 2024</p>
               <p className="mt-2">Supervised & Unsupervised Learning, Regression Models</p>
+            </div>
+            <div className="glass-effect p-6 rounded-xl">
+              <h3 className="text-xl font-bold">L&T Deep Learning Certification</h3>
+              <p className="text-gray-600">Jan 2025</p>
+              <p className="mt-2">CNN, RNN, LSTM, Transfer Learning, TensorFlow, Keras, Model Deployment</p>
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold">Google Developers & SmartInternz Externship</h3>
