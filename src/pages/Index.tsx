@@ -214,7 +214,7 @@ const Index = () => {
             <p className="text-lg text-gray-600 mb-8">
               Expertise in Machine Learning, Deep Learning, and Data Analytics
             </p>
-            <a href="resume.pdf" download className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105">
+            <a href="Resume.pdf" download className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105">
               <span className="mr-2">Download Resume</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
