@@ -295,7 +295,33 @@ const Index = () => {
       }} className="max-w-4xl mx-auto">
           <h2 className="heading text-center">Skills</h2>
           <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {["Python", "SQL", "R", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI", "Tableau", "Excel", "Regression Models", "Classification Models", "Supervised Learning", "Unsupervised Learning", "Predictive Analytics", "TensorFlow", "Keras", "Convolutional Neural Networks (CNN)", "Recurrent Neural Networks (RNN)", "OpenCV", "Flask"].map(skill => <motion.div key={skill} className="glass-effect p-4 rounded-xl text-center hover:scale-105 transition-transform duration-300 cursor-pointer" whileHover={{
+            {[
+        // Languages & Core
+        "Python", "SQL", "R",
+
+        // Data Analysis & Processing
+        "Pandas", "NumPy", "Excel", "EDA", "Data Cleaning", "Data Wrangling", "Feature Engineering",
+
+        // Visualization Tools
+        "Matplotlib", "Seaborn", "Power BI", "Tableau", "Google Data Studio",
+
+        // Machine Learning
+        "Scikit-learn", "Supervised Learning", "Unsupervised Learning",
+        "Regression Models", "Classification Models", "Clustering", "PCA", "Predictive Analytics",
+
+        // Deep Learning
+        "TensorFlow", "Keras", "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)", "LSTM", "Transfer Learning",
+
+        // NLP & Text Mining
+        "NLP", "TF-IDF", "Transformers", "Sentiment Analysis", "Named Entity Recognition (NER)",
+
+        // Time Series & Forecasting
+        "Time Series Analysis",
+
+        // Deployment & APIs
+        "Flask", "OpenCV", "REST APIs", "API Integration", "Model Deployment"
+      ].map(skill => <motion.div key={skill} className="glass-effect p-4 rounded-xl text-center hover:scale-105 transition-transform duration-300 cursor-pointer" whileHover={{
             y: -5
           }} initial={{
             opacity: 0,
