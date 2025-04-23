@@ -311,7 +311,6 @@ const Index = () => {
 
         // Deep Learning
         "TensorFlow", "Keras", "Convolutional Neural Networks (CNN)",
-        "Recurrent Neural Networks (RNN)", "LSTM", "Transfer Learning",
 
         // NLP & Text Mining
         "NLP", "TF-IDF", "Transformers", "Sentiment Analysis", "Named Entity Recognition (NER)",
