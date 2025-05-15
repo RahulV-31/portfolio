@@ -118,7 +118,15 @@ const Index = () => {
     fullDesc: "Developed a Natural Language Processing (NLP) model to classify BBC news articles into five categories: Business, Entertainment, Politics, Sport, and Tech. Applied text preprocessing techniques such as tokenization, stopword removal, and stemming. TF-IDF vectorization was used to extract features, and models like Naïve Bayes and Logistic Regression were evaluated. The best-performing model achieved 92% accuracy. A Flask web app was built for real-time classification, enabling users to enter text and receive instant predictions.",
     technologies: ["Python", "Scikit-learn", "NLP (TF-IDF)", "Flask", "HTML/CSS"],
     github: "https://github.com/RahulV-31/BBC-Text-Category-Classification"
-  }, {
+  },
+  {
+  "title": "YouTube Comments Sentiment & Engagement Analysis",
+  "shortDesc": "Built a pipeline to extract YouTube comments, analyze sentiment, emoji usage, and calculate a custom engagement score with visualizations.",
+  "fullDesc": "Developed a Python-based system leveraging the YouTube Data API to fetch and analyze public comments from any YouTube video. Applied NLP techniques using TextBlob for sentiment classification and spaCy for named entity recognition. Integrated emoji parsing to gauge emotional nuances. Generated word clouds for positive and negative comments and devised a multi-factor custom engagement score combining sentiment ratios, likes, views, comments, and subscriber interactions. The project outputs interactive visualizations and exports detailed data for further analysis.",
+  "technologies": ["Python", "YouTube Data API", "TextBlob", "spaCy", "emoji", "WordCloud", "Matplotlib", "Pandas", "Seaborn"],
+  "github": "https://github.com/RahulV-31/Youtube_Sentiment_Analysis"
+}
+, {
     title: "House Price Prediction",
     shortDesc: "Built a predictive model using regression techniques to estimate house prices based on key features.",
     fullDesc: "Created a machine learning model to predict house prices based on features like square footage, number of rooms, and location. Preprocessing steps included handling missing values, feature scaling, and encoding categorical variables. Implemented regression models including Linear Regression, Decision Tree, and Random Forest, with the final model achieving an R-squared value of 0.89. This project demonstrates expertise in predictive modeling and feature engineering, providing valuable insights for real estate investment.",
