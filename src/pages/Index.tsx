@@ -278,15 +278,15 @@ const Index = () => {
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
-              Higher Secondary Certificate (HSC) – Science
+              Higher Secondary Certificate (HSC) Science
               </h3>
-              <p className="text-gray-600">B.K. Birla College, Maharashtra State Board | 2018-2020</p>
+              <p className="text-gray-600">R.K.T College, Maharashtra State Board | 2018-2020</p>
             </div>
             <div className="glass-effect p-6 rounded-xl">
               <h3 className="text-xl font-bold flex items-center">
               Secondary School Certificate (SSC)
               </h3>
-              <p className="text-gray-600">Sacred Heart School, Maharashtra State Board | 2017-2018</p>
+              <p className="text-gray-600">T.V.M School, Maharashtra State Board | 2017-2018</p>
             </div>
           </div>
         </motion.div>
@@ -327,7 +327,7 @@ const Index = () => {
         "Time Series Analysis",
 
         // Deployment & APIs
-        "Flask", "OpenCV", "REST APIs", "API Integration", "Model Deployment"
+        "Flask", "OpenCV", "REST APIs", "API Integration", "Model Deployment", "Hadoop", "Spark"
       ].map(skill => <motion.div key={skill} className="glass-effect p-4 rounded-xl text-center hover:scale-105 transition-transform duration-300 cursor-pointer" whileHover={{
             y: -5
           }} initial={{
