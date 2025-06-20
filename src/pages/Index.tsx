@@ -245,7 +245,7 @@ const Index = () => {
           <h2 className="heading text-center">About Me</h2>
           <div className="mt-8 space-y-6 text-lg leading-relaxed">
             <p>
-              I am a data science enthusiast currently pursuing my Master of Science in Data Science at B.K. Birla College, Mumbai University (Expected 2025). My passion lies in uncovering insights from data, building predictive models, and leveraging AI for real-world applications.
+              I am a data science enthusiast recently completed my Master of Science in Data Science at B.K. Birla College, Mumbai University. My passion lies in uncovering insights from data, building predictive models, and leveraging AI for real-world applications.
             </p>
             <p>
               I have hands-on experience with Python, SQL, Machine Learning, Deep Learning, and Data Visualization tools. I have worked on projects involving predictive analytics, image classification, NLP, and data-driven insights, and I am always eager to explore new opportunities, internships, and collaborations in the field of Data Science.
